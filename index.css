@@ -158,3 +158,16 @@ form {
     width: 100%;
     height: auto;
 }
+
+@media (max-width: 576px) {
+    .large-text {
+      font-size: 60px; /* Smaller font for mobile */
+    }
+  }
+  
+  @media (min-width: 768px) {
+    h5 {
+      font-size: 60px; /* Slightly bigger on tablets */
+    }
+  }
+  
