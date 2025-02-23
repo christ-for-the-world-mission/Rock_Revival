@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CFWM</title>
+  <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+  <div class="container-fluid hero-section">
+    <div class="hero-overlay"></div> <!-- This adds the dark overlay -->
+
+    <div class="hero-content pb-5">
+      <ul class="nav">
+        <li class="nav-item">
+          <img src="" alt=""> <!-- insert church logo here -->
+          <a class="nav-link text-light fw-bold brand" href="#">CHRIST FOR THE WORLD MISSION</a>
+        </li>
+      </ul>
+
+      <!-- <h5>Join us this</h5> -->
+      <h1 class="large-text first">WE ARE SAVING A SEAT FOR YOU</h1>
+      <!-- <h3>Time: 8:30A.M</h3>
+      <h5>12 Ekpo Abasi Street</h5> -->
+
+      <button class="btn plan text-light mt-3 px-4 py-2">Plan Your Visit</button>
+    </div>
+  </div>
+
+  <div class="container py-5">
+    <div class="row align-items-center">
+      <!-- Left Column - Form -->
+      <div class="col-lg-6 col-md-12">
+        <div class="p-4 rounded">
+          <h1 class="large-text">Let's Get Connected</h1>
+          <h4 class="connect-text">
+            Please provide us with your information so we can know you better. Thank you!
+          </h4>
+
+          <form class="mt-3">
+            <h5 class="mb-3">Tell us about you</h5>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Full Name (E.g John Doe)" name="name">
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Email Address (E.g johndoe@gmail.com)" name="email">
+            </div>
+            <div class="mb-3">
+              <input type="number" class="form-control" placeholder="Phone Number (E.g +2349031225764)" name="phone">
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Address (E.g 13 Hughs Street)" name="address">
+            </div>
+            <button type="submit" class="btn btn-submit w-100 mt-3">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Right Column - Image -->
+      <div class="col-lg-6 col-md-12 text-center mt-4 mt-lg-0">
+        <img src="./image/undraw_new-message_qvv6.png" alt="Illustration" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  <div class="container py-5">
+    <div class="row align-items-center">
+      <!-- Left Column-->
+
+      <div class="col-lg-5 col-md-12 text-center mt-4 mt-lg-0">
+        <img src="./image/undraw_following_ztgd.png" alt="Illustration" class="img-fluid">
+      </div>
+      <!-- right column -->
+      <div class="col-lg-7 col-md-12">
+        <div class="p-4 rounded">
+          <h2 class="mb-3 large-text">We’d Love to know you more</h2>
+
+          <!-- Are you a first-timer? -->
+          <h5 class="mt-4 text-secondary">Are you a first-timer?</h5>
+          <div class="d-flex gap-3 flex-wrap">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="visit_status" id="firstTimer" value="first_timer"
+                checked>
+              <label class="form-check-label" for="firstTimer">First Timer</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="visit_status" id="regularGuest" value="regular_guest">
+              <label class="form-check-label" for="regularGuest">Regular Guest</label>
+            </div>
+          </div>
+          <!-- I'd like more information about -->
+          <h5 class="mt-4 text-secondary">I'd like more information about:</h5>
+          <div class="d-flex gap-5 flex-wrap">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="info" id="christian" value="becoming_christian"
+                checked>
+              <label class="form-check-label" for="christian">Becoming a Christian</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="info" id="member" value="becoming_member">
+              <label class="form-check-label" for="member">Becoming a Member</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="info" id="volunteer" value="becoming_volunteer">
+              <label class="form-check-label" for="volunteer">Becoming a Volunteer</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="info" id="baptism" value="baptism_counselling">
+              <label class="form-check-label" for="baptism">Baptism & Counselling</label>
+            </div>
+          </div>
+
+          <!-- Other & Prayer Requests -->
+          <div class="mt-3">
+            <input type="text" class="form-control" placeholder="Other" name="other">
+          </div>
+          <div class="mt-3">
+            <input type="text" class="form-control" placeholder="Prayer requests" name="prayer_requests">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-white text-center text-lg-start mt-5 border-top">
+    <div class="container py-4">
+      <div class="row">
+        <!-- Left Section -->
+        <div class="col-md-6 mb-3">
+          <h5 class="text-dark">CHRIST FOR THE WORLD MISSION</h5>
+          <p class="text-muted">Bringing hope and salvation to the world through Christ.</p>
+        </div>
+  
+        <!-- Right Section (Quick Links) -->
+        <div class="col-md-6 text-md-end">
+          <a href="#" class="text-dark me-3 text-decoration-none">Home</a>
+          <a href="#" class="text-dark me-3 text-decoration-none">About</a>
+          <a href="#" class="text-dark me-3 text-decoration-none">Buy ticket</a>
+          <a href="#" class="text-dark me-3 text-decoration-none">Visit HQ</a>
+          <a href="#" class="text-dark me-3 text-decoration-none">Volunteer</a>
+          <a href="#" class="text-dark me-3 text-decoration-none">Sponsor</a>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Copyright Section -->
+    <div class="text-center py-3" style="background: rgb(189, 88, 5); color: white;">
+      &copy; 2025 CHRIST FOR THE WORLD MISSION. All Rights Reserved.
+    </div>
+  </footer>
+  
+
+  <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
