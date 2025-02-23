@@ -43,7 +43,7 @@ button.join {
 
 .hero-section {
     text-align: center;
-    background-image: url('/image/bg5.jpg');
+    background-image: url('./image/bg5.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
